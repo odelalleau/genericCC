@@ -1,7 +1,7 @@
 pMEMORY_STYLE := ./protobufs-default
 
 CXX := g++
-CXXFLAGS := -DHAVE_CONFIG_H -std=c++11 -pthread -pedantic -Wall -Wextra -Weffc++ -Werror -Wno-deprecated-copy -fno-default-inline -g -O2 -fPIC
+CXXFLAGS := -DHAVE_CONFIG_H -std=c++11 -pthread -pedantic -Wall -Wextra -Weffc++ -Wno-deprecated-copy -fno-default-inline -g -O2 -fPIC
 INCLUDES :=	-I./protobufs-default -I./udt
 
 LIBS     := -ljemalloc -lm -pthread -lprotobuf -lpthread -ljemalloc
